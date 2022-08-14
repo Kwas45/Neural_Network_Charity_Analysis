@@ -37,11 +37,15 @@ The EIN and NAME variables are neither targets nor features, and are removed fro
 **2. Compiling, Training, and Evaluating the Model**
 
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
-The neural network model had 3 layers including the output layer. They each had 80, 30, and 1 neuron respectively. The first and second layers were activated with relu while the output layer was activated with sigmoid. 
+The neural network model has 3 layers including the output layer. They each have 80, 30, and 1 neuron respectively. The first and second layers are activated with relu while the output layer is activated with sigmoid. 
 
 - Were you able to achieve the target model performance?
-At 73% accuracy, the target model performance (75%) wasn't able to be achieved. 
+At 73% accuracy, the target model performance of 75% isn't able to be achieved. 
 
 - What steps did you take to try and increase model performance?
 To try to increase the model performance additional hidden layers were added as well as an increase to the number of epochs. 
+
+
+## Summary
+In all, the target performance isn't able to be achieved. A few columns could be dropped, more bins could be created, and more neurons could be added to try to achieve target performance. Although random Fforest sometimes predicts similarly to neural network, it could be tried as the random forest classifier is able to train on large datasets and predict values in seconds. It predicts accuracy with less code and faster performance. 
 
