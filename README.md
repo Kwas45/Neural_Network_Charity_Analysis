@@ -36,4 +36,12 @@ The EIN and NAME variables are neither targets nor features, and are removed fro
 
 **2. Compiling, Training, and Evaluating the Model**
 
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+The neural network model had 3 layers including the output layer. They each had 80, 30, and 1 neuron respectively. The first and second layers were activated with relu while the output layer was activated with sigmoid. 
+
+- Were you able to achieve the target model performance?
+At 73% accuracy, the target model performance (75%) wasn't able to be achieved. 
+
+- What steps did you take to try and increase model performance?
+To try to increase the model performance additional hidden layers were added as well as an increase to the number of epochs. 
 
